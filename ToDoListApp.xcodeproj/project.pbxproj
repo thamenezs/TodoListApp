@@ -29,6 +29,7 @@
 		D60BE0AE2D394E2400BEAD52 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BE0AD2D394E2400BEAD52 /* RegisterViewViewModel.swift */; };
 		D60BE0B02D394E4300BEAD52 /* NewItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BE0AF2D394E4300BEAD52 /* NewItemViewModel.swift */; };
 		D60BE0B22D394EF600BEAD52 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BE0B12D394EF600BEAD52 /* ToDoListItemViewViewModel.swift */; };
+		D60BE0B42D396FA500BEAD52 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BE0B32D396FA500BEAD52 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		D60BE0AD2D394E2400BEAD52 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		D60BE0AF2D394E4300BEAD52 /* NewItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewModel.swift; sourceTree = "<group>"; };
 		D60BE0B12D394EF600BEAD52 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		D60BE0B32D396FA500BEAD52 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				D60BE09B2D383BA100BEAD52 /* RegisterView.swift */,
 				D60BE09D2D383BB200BEAD52 /* LoginView.swift */,
 				D60BE09F2D394B0500BEAD52 /* ToDoListItemView.swift */,
+				D60BE0B32D396FA500BEAD52 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			files = (
 				D60BE0982D383B4800BEAD52 /* NewItemView.swift in Sources */,
 				D60BE0AC2D394E1600BEAD52 /* LoginViewViewModel.swift in Sources */,
+				D60BE0B42D396FA500BEAD52 /* HeaderView.swift in Sources */,
 				D60BE09E2D383BB200BEAD52 /* LoginView.swift in Sources */,
 				D60BE0A62D394DD300BEAD52 /* MainViewViewModel.swift in Sources */,
 				D60BE07F2D3807EA00BEAD52 /* MainView.swift in Sources */,
