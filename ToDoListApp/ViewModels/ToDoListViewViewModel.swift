@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+// ViewModel for the complete list of items
+
+class ToDoListViewViewModel: ObservableObject {
+    
+    init(){}
+    
+    
+}
