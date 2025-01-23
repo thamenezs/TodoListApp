@@ -11,5 +11,7 @@ class ProfileViewViewModel: ObservableObject {
     
     init(){}
     
-    
+    func toggleIsDone(item: ToDoListItem) {
+        
+    }
 }
