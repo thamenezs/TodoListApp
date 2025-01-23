@@ -15,6 +15,7 @@ struct ToDoListItemView: View {
             VStack(alignment: .leading) {
                 Text(item.title)
                     .font(.body)
+                    .opacity(item.isDone ? 0.4 : 0.8)
                 
                 
                 Text("\(Date(timeIntervalSince1970: item.dueDate).formatted(date: .abbreviated, time: .shortened))")
@@ -27,6 +28,7 @@ struct ToDoListItemView: View {
                 viewModel.toggleIsDone(item: item)
             } label: {
                 Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle")
+                    .foregroundStyle(.orange)
             }
         }
     }
