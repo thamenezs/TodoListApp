@@ -13,5 +13,6 @@ class ToDoListViewViewModel: ObservableObject {
     
     init(){}
     
-    
+    @Published var showingNewItemView = false
+
 }
